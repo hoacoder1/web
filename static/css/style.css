@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    line-height: 0.75rem;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+@media  (min-width: 992px)  {
+    .nav-item {
+        margin: 0rem 0rem;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 5px;
+    }
+}
+
+.header {
+}
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-item  {
+    padding: 10px;
+}
+.dropdown-item :hover {
+    background-color: red;
+}
+
+.main {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content {
+    background-color: #F0F0F0;
+    padding: 20px 0px;
+}
+
+@media (max-width : 992px) {
+    .right{
+        font-size: 13px;
+    }
+    .card-title{
+        font-size: 13px;
+    }
+    .btn.btn-primary {
+        font-size: 13px;
+    }
+ 
+    .form-control.ms-2 {
+        width: 350px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width : 993px) and (max-width : 1199px) {
+     .main {
+        font-size: 12.3px;
+     }
+
+     .card-title {
+        font-size: 15px;
+     }
+
+     .form-control.ms-2 {
+        width: 400px;
+     }
+     h2 {
+        font-size: 16px;
+     }
+     .btn.btn-primary {
+        font-size: 9.3px;
+     }
+     .img-category {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (min-width : 1201px) and (max-width : 1401px) {
+    .main {
+       font-size: 15px;
+    }
+    .btn.btn-primary {
+        font-size: 12px;
+    }
+    .img-category {
+        width: 375px;
+        height: 375px;
+    }
+
+}
+
+@media (min-width : 1201px) {
+    .form-control.ms-2 {
+        width: 550px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+   
+}
+@media (max-width : 576px) {
+    h2 {
+        display: none;
+    }
+    .form-control.ms-2{
+        width: 300px;
+    }
+    
+}
+
+span.carousel-control-next-icon {
+    position: absolute;
+    right: -1rem;
+}
+.input-email button{
+    background-color: orange;
+    transition: 0.5s all;
+}
+.spbtn  :hover{
+    background-color: #CC0000;
+}
+
+@media (max-width :768px) {
+    .card-title {
+        height: 60px;
+    }
+    .btn.btn-primary  ::before{
+        content: "Xem thông tin ";
+    }
+    .btn.btn-primary {
+        
+    }
+}
+
+@media (min-width : 769px) and (max-width : 992px) {
+    .btn.btn-primary {
+        font-size: 12px;
+    }
+}
+
+@media (max-width :576px) {
+    .card-title {
+        height: 55px;
+    }
+    .card-title {
+        font-size: 11px;
+    }
+    .form-select.me-3 {
+        width: 120px;
+        font-size: 8px;
+    }
+    .img-category {
+        width: 175px;
+        height: 175px;
+    }
+    .body-category {
+        font-size: 10px;
+    }
+    
+}
+
+@media (min-width : 767px) {
+    .form-select.me-3 {
+        width: 200px;
+    }
+}
+
+@media (min-width : 576px) and (max-width : 767px) {
+    .form-select.me-3 {
+        width: 150px;
+        font-size: 12px;
+    }
+    
+}
+.linkt5 {
+    font-size: 13px;
+ 
+    transition: all 0.5s ease-in 0s ;
+    padding: 1rem 0;
+    color: black; 
+}
+h4 {
+    margin-bottom: 1.25rem;
+}
+
+.text5 :hover {
+    color: pink;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.text5:hover::before {
+    content: "--";
+    color: pink;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    display: inline-block;
+    transition: 0,5s ease-in;
+}
+
+.number-page {
+    padding: 16px 16px;
+    text-decoration: none;
+    color: black;
+   
+    transition: 0,5s ease;
+    border-radius: 10%;
+}
+
+.page :hover {
+   
+    background-color: #FCDAB0;
+}
+
+.continue-disable {
+    display: none;
+}
+
+.pagetwo {
+    display: none;
+}
+
+.category-content {
+    background-color: #F0F0F0;
+}
+
+.btn-order {
+    width: 43%;
+    height: 45px;
+    background-color: #CDCFD0;
+    color: #ffff;
+    border-radius: 8px ;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h6 {
+    font-size: 16px;
+}
+
+@media (max-width : 992px) and (min-width: 767px){
+    h5.card-title.mb-4 {
+        height: 48px;
+    }
+}
+
+@media (min-width:1400px) {
+    .btn.btn-primary {
+        font-size: 15px;
+    }
+
+}
+
+th {
+    padding: 20px 10px;
+    width: 60%;
+    color: #E9BC8D;
+}
+
+th , td  {
+    border-bottom: 0.5px solid #F2F4F5
+}
